@@ -17,7 +17,7 @@ st.write(get_random_number())
 
 get_random_number()
 
-@st.cache
+@st.cache_data
 def cached_random_number():
     return get_random_number()
 
